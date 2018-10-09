@@ -40,7 +40,7 @@ void setup(){
   Serial.println(dev_id, HEX);
 
   //BMI160.setGyroRate(25);
-  BMI160.setAccelerometerRange(BMI160_ACCEL_RANGE_2G);
+  BMI160.setAccelerometerRange(2);
   BMI160.setAccelRate(BMI160_ACCEL_RATE_100HZ);
   //BMI160.setAccelDLPFMode(BMI160_DLPF_MODE_NORM);
   BMI160.setGyroRange(250);
